@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page with image using HTML &CSS</title>
+	<style type="text/css">
+		  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        font-family:Arial, Helvetica, sans-serif;
+
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Times New Roman', Times, serif, cursive;
+    }
+
+header{
+    
+    top: 10;
+    left: 10;
+    width: cover;
+    padding: 10px;
+    background: linear-gradient(to top, transparent, rgba(228, 10, 10, 0.6));
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 1000;
+    color: #140653;
+    float: left;
+}
+
+header .menu{
+    float: right;
+    margin-top: 10px;
+}
+header ul li{
+display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(207, 24, 177);
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.body{
+
+    background: url(images/cheezy1.jpg) no-repeat;
+	 background-position: cover;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+.content{
+	background-color: lightgray;
+	height: 100px;
+	text-align: center;
+	padding-top: 30px;
+}
+.footer {
+	background-color: lightgreen;
+	height: 160px;
+
+}
+.footer a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+    border-radius: 50px;
+    float: right;
+}
+
+	</style>
+
+
+</head>
+<body>
+ 
+        <header>
+<div class="logo">CHEEZYBITE</div>
+<div class="menu">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        
+    </ul>
+</div>
+        </header>
+        <div class="body">	
+        </div>
+        <div class="content">
+        	 <p>Come for the Real taste of Cheezy bite</p><br>
+             <p>we aim to deliver the best food to our customer</p>
+        </div>
+        <div class="footer">
+        	 <a href="#" class="color1">Order Now</a>
+             <a href="#"class="color1">Call</a>
+        	
+        </div>
+</body>
+</html>
